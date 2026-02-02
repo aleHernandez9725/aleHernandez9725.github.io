@@ -1,0 +1,162 @@
+h1 {
+
+    color: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: max(2vw, 7vw);
+    margin: 0 auto;
+    background-color: aqua;
+
+
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+
+}
+
+body {
+    background-color: grey;
+}
+
+.pictures {
+    border: 1px solid black;
+    width: 70%;
+    height: auto;
+
+}
+
+.names {
+    color: white;
+    font-size: max(2vw, 3vw)
+}
+
+.FaceFigure {
+    text-align: center;
+    width: 30%;
+
+
+
+}
+
+#ale {
+    border-top-left-radius: 25px;
+
+}
+
+#imane {
+    border-top-right-radius: 25px;
+
+}
+
+#ryan {
+    border-bottom-left-radius: 25px;
+
+}
+
+#ang {
+
+    border-bottom-right-radius: 25px;
+
+}
+
+footer {
+    text-align: center;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+
+.pages {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.pages:hover {
+    background-color: white;
+    color: black;
+}
+
+.pages.active {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#logo {
+    background-color: grey;
+    display: center;
+    height: 15%;
+    width: 15%;
+
+
+}
+
+#id {
+    text-align: center;
+
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.welcome blockquote {
+    font-style: italic;
+    margin: 10px auto;
+}
+.experience-table {
+    margin: 20px auto;          
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .experience-table th,
+  .experience-table td {
+    border: 2px solid white;
+    padding: 10px 15px;
+  }
+  .interests {
+    list-style-position: inside; 
+    text-align: center;
+    padding: 0;
+    margin: 20px auto;
+    width: fit-content;          
+  }
+  
+  .interests li {
+    margin: 5px 0;
+  }
+  .page-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+  }
+  
+  .form-wrap iframe {
+    width: min(900px, 95vw);
+    height: 700px;
+    border: 2px solid white;
+  }
+  
+  
+  
