@@ -5,49 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 3: Quiz</title>
-    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js">
-    </script>
+    <script src="https://unpkg.com/underscore@1.13.7/underscore-umd-min.js"> </script>
+    <link rel="stylesheet" href="css/style.css">
 
-    <script src="js/script.js" defer></script>
+    <script src="js/script.js" defer>
+    </script>
 </head>
 
 <body>
-    <h1>Css quiz</h1>
+    <h1>Sports Quiz! Do You know ball?</h1>
+    <p id="attemptCount"></p>
 
-    1. What is the Css property to set the font color
+    1. What Player has won Unamious NFL MVP? (20pts)
     <br>
 
     <div id="q1ChoicesDiv"></div>
+    <img id="q1Img" width="25">
 
 
     <br>
 
-    2. What is the CSS property to set the font color!
+    2. Where is Lebron James From? (20pts)
     <input type="text" id="q2">
+    <img id="q2Img" width="25">
 
     <br>
     <br>
 
-    3.What is the CSS property to set the font color!
+    3.Who is known as the G.O.A.T? (20pts)
     <select id="selectInput">
-        <option value="op1">color</option>
-        <option value="op2">font-color</option>
-        <option value="op3">textcolor</option>
-        <option value="op4">Font-color</option>
+        <option value="op1">LeBron James</option>
+        <option value="op2">Lional Messi</option>
+        <option value="op3">Cristiano Ronaldo</option>
+        <option value="op4">Michael Jordan</option>
 
     </select>
+    <img id="q3Img" width="25">
     <br>
     <br>
-    4. What Year is it currently?
+    4. What Year did Argentina win the World Cup? (20pts)
     <input type="number" id="q4">
-
-
+    <img id="q4Img" width="25">
 
     <br>
+    <br>
+    5.Set the Volume to 35? HARD(20pts)
+    <div id="q5Container">
+        <input type="range" id="q5" min="0" max="5000" value="0">
+        <img id="q5Img" width="25">
+        <span id="volValue">0</span>
+    </div>
 
-
-
+    <br>
+    <br>
     <button>Submit Quiz</button>
+
+    <h2 id="finalScore"></h2>
 
 
 </body>

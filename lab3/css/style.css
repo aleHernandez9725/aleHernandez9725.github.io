@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: aqua;
+    
+
+}
+h2{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+
+
+
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(128, 128, 128,0.5)
+    
+
+}
+button{
+    background-color: aqua;
+    font-size: 24px;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+}
+button:active{
+    box-shadow: 0 5px #302e2e;
+    transform:translateY(4px) ;
+}
