@@ -2,7 +2,25 @@ h1{
     text-align: center;
     background-color: rgb(112, 128, 144, 0.4);
     border: 2px solid black;
+}
+button{
+    border-radius: 15px;
+    background-color: aqua;
+    box-shadow: 5px 2px rgb(51, 50, 50);
+    font-size: large
 
 
 
+}
+#hangmanImg{
+    width: 200px;
+    height: auto;
+
+
+}
+body{
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
 }

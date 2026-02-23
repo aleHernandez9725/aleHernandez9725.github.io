@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW2: Javascript</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js" defer></script>
 </head>
+
 <body>
-    <h1>Hanging Man</h1>
+    <body>
+        <h1>Hang Man: Programming Edition</h1>
+      
+        <img id="hangmanImg" src="img/hangMan.jpg" alt="Hangman stage">
+      
+        <p id="statusMsg">Type a letter and press Guess.</p>
+      
+        <h2 id="wordDisplay">_ _ _ _</h2>
+      
+        <p>Guessed letters: <span id="guessedLetters">None</span></p>
+        <p>Wrong guesses left: <span id="triesLeft">6</span></p>
+      
+        <label for="letterInput">Guess a letter:</label>
+        <input id="letterInput" type="text" maxlength="1" autocomplete="off">
+      
+        <button id="guessbtn" type="button">Guess</button>
+        <button id="resetbtn" type="button">Reset</button>
+      
+        <script src="js/index.js" defer></script>
+      </body>
 
 
-    <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, enim laboriosam aperiam sequi cumque modi delectus voluptatum culpa corrupti libero, soluta laudantium, ex reiciendis ullam. Consequuntur, beatae. Deleniti, repellat eaque.
 
-    </p>
-    <script src="js/index.js"></script>
 </body>
+
 </html>
